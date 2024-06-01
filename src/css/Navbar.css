@@ -1,0 +1,19 @@
+.navbar-brand {
+  color: #212529;
+}
+
+.navbar-brand:hover {
+  color: #0056b3;
+}
+
+.navbar-search-input {
+  width: 300px;
+}
+
+.nav-link {
+  color: #323232 !important;
+}
+
+.nav-link:hover {
+  color: #000000 !important;
+}

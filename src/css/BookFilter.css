@@ -1,0 +1,28 @@
+.book-filter-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.book-filter-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.book-filter-label {
+  font-weight: bold;
+}
+
+.book-filter-select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.book-filter-reset-btn {
+  margin-top: 10px;
+}

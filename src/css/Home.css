@@ -1,0 +1,98 @@
+body {
+  background-color: #ffffff;
+}
+
+.show-filters-btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.show-filters-btn:hover {
+  background-color: #0056b3;
+}
+
+.book-filter-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.book-filter-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.book-filter-label {
+  font-weight: bold;
+}
+
+.book-filter-select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.book-filter-reset-btn {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-filter-reset-btn:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 1em;
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  padding: 1.5em;
+  max-height: 550px;
+  width: 100%;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.book-link {
+  text-decoration: none;
+  color: #212529;
+}
+
+.book-link:hover {
+  color: #0056b3;
+}
