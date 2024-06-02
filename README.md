@@ -10,7 +10,6 @@ BOOKSoLD is a comprehensive book shopping website built with React and Bootstrap
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
