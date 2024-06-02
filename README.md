@@ -1,70 +1,123 @@
-# Getting Started with Create React App
+# BOOKSoLD
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+BOOKSoLD is a comprehensive book shopping website built with React and Bootstrap. It provides users with a seamless browsing and shopping experience for a wide variety of books.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Home Page**: Browse through trending and other books.
+- **Search**: Search for books by name.
+- **Filter**: Filter books based on category and price.
+- **Book Details**: View detailed information about a book.
+- **About Us**: Learn more about BOOKSoLD.
+- **Page Not Found**: Custom 404 page for non-existent routes.
+- **Contact Form**: Submit your contact information via a modal popup.
+- **Responsive Design**: Fully responsive design using Bootstrap.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+Check out the live demo of BOOKSoLD [here](https://advaithsshetty.me/booksld/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To set up the project locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
+   
+   git clone https://github.com/adaithsshetty/booksoldalt.git
+   cd booksoldalt
+   
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install dependencies:**
+   
+   npm install
+   
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Start the development server:**
+   
+   npm start
+   
 
-### `npm run eject`
+The app will be available at `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Home Page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Browse through the carousel of trending books.
+- Use the filter option to filter books based on category and price.
+- Search for books by typing in the search bar.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Book Details
 
-## Learn More
+- Click on any book card to navigate to its details page.
+- View detailed information about the book and add it to the cart.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### About Us
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Navigate to the About Us page to learn more about BOOKSoLD.
 
-### Code Splitting
+### Contact Form
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Submit your contact information through the modal popup.
 
-### Analyzing the Bundle Size
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+src/
+|-- components/
+|   |-- About.js
+|   |-- BookFilter.js
+|   |-- Contact.js
+|   |-- Details.js
+|   |-- Footer.js
+|   |-- Home.js
+|   |-- MyNavbar.js
+|   |-- NotFound.js
+|-- css/
+|   |-- fonts/
+|       |-- Oswald.ttf
+|   |-- About.js
+|   |-- App.css
+|   |-- BookFilter.css
+|   |-- Details.css
+|   |-- Footer.css
+|   |-- Home.css
+|   |-- MyNavbar.css
+|   |-- NotFound.css
+|-- data/
+|   |-- books.json
+|-- App.js
+|-- index.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+Contributions are welcome! Please follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. **Fork the repository.**
+2. **Create a new branch** for your feature or bugfix.
+   
+   git checkout -b feature-name
+   
+3. **Commit your changes**.
+   
+   git commit -m 'Add some feature'
+   
+4. **Push to the branch**.
+   
+   git push origin feature-name
+   
+5. **Open a Pull Request**.
+---
 
-### Deployment
+Feel free to contribute to this project by submitting issues or pull requests. We appreciate your feedback and support!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
