@@ -31,20 +31,20 @@ Check out the live demo of BOOKSoLD [here](https://advaithsshetty.me/booksld/).
 To set up the project locally, follow these steps:
 
 1. **Clone the repository:**
-   
+   ```
    git clone https://github.com/adaithsshetty/booksoldalt.git
    cd booksoldalt
-   
+   ```
 
 2. **Install dependencies:**
-   
+   ```
    npm install
-   
+   ```
 
 3. **Start the development server:**
-   
+   ```
    npm start
-   
+   ```
 
 The app will be available at `http://localhost:3000`.
 
@@ -71,7 +71,7 @@ The app will be available at `http://localhost:3000`.
 
 ## Project Structure
 
-
+```
 src/
 |-- components/
 |   |-- About.js
@@ -97,6 +97,7 @@ src/
 |   |-- books.json
 |-- App.js
 |-- index.js
+```
 
 ## Contributing
 
@@ -104,17 +105,17 @@ Contributions are welcome! Please follow these steps:
 
 1. **Fork the repository.**
 2. **Create a new branch** for your feature or bugfix.
-   
+   ```
    git checkout -b feature-name
-   
+   ```
 3. **Commit your changes**.
-   
+   ```
    git commit -m 'Add some feature'
-   
+   ```
 4. **Push to the branch**.
-   
+   ```
    git push origin feature-name
-   
+   ```
 5. **Open a Pull Request**.
 ---
 
